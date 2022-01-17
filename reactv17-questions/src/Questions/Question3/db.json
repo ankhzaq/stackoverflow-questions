@@ -1,0 +1,39 @@
+{
+  "api": [
+    {
+      "id": 1,
+      "email": "json-server@gmail.com"
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "email": "zaquiel2@gmail.com",
+      "id": 7
+    },
+    {
+      "email": "zaquiel2@gmail.com",
+      "id": 8
+    },
+    {
+      "email": "zaquiel2@gmail.com",
+      "id": 9
+    },
+    {
+      "email": "zaquiel2@gmail.com",
+      "id": 10
+    }
+  ]
+}

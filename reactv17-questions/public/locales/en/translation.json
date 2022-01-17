@@ -1,0 +1,52 @@
+{
+  "title-login": "login",
+  "title-listUsers": "users list",
+  "title-detailUser": "user: ",
+  "noDataFound": "No data found",
+  "loading": "loading...",
+  "usersList": {
+    "search-results": "search results",
+    "table": {
+      "columns": {
+        "name": "name",
+        "surname": "surname",
+        "photo": "photo"
+      },
+      "refreshText1": "Data obtained",
+      "refreshText2": "seconds ago",
+      "refresh": "Refresh data",
+      "pagination": {
+        "first": "First",
+        "previous": "Previous",
+        "next": "Next",
+        "last": "Last"
+      }
+    }
+  },
+  "userDetail": {
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "updateData": "Update data",
+    "undo": "Undo changes",
+    "errorUpdate": "Error updating data",
+    "errorDeleted": "Error removing user",
+    "removeUser": "Remove user",
+    "confirmDelete": "You are going to delete the user. Are you sure?",
+    "refreshText1": "Info obtained",
+    "refreshText2": "seconds ago",
+    "refresh": "Refresh data"
+  },
+  "login": {
+    "title": "Sign in",
+    "subtitle": "Use your ReqRes session",
+    "email": "Email",
+    "password": "Password",
+    "emailNoValid": "Format invalid",
+    "showPass": "Show password",
+    "hidePass": "Hide password",
+    "rememberMe": "Remember me",
+    "loginEnabled": "click to login",
+    "loginDisabled": "Fill email and password to login"
+  }
+}
