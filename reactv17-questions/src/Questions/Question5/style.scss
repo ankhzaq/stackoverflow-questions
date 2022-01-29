@@ -1,0 +1,7 @@
+.ellipse {
+  margin-right: 5px;
+}
+.ellipse:after {
+  content: "...";
+  marginRight: '5px';
+}
