@@ -3,11 +3,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Component
-import Question6 from './Questions/Question6';
+import Question7 from './Questions/Question7';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Question6 />
+    <Question7 />
   </React.StrictMode>,
   document.getElementById('root'),
 );
