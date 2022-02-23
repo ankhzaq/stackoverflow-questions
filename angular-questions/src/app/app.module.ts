@@ -3,17 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgbDatepickerModule } from '@ng-bootstrap/ng-bootstrap';
 import { Question1Component } from './questions/question1/question1.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTabsModule } from '@angular/material/tabs';
 import { DropdownModule } from 'primeng/dropdown';
+import { Question2Component } from './questions/question2/question2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Question1Component
+    Question1Component,
+    Question2Component,
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,8 @@ import { DropdownModule } from 'primeng/dropdown';
     NgbDatepickerModule,
     BrowserAnimationsModule,
     MatTabsModule,
-    DropdownModule
+    DropdownModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,6 @@
+<form [formGroup]="form">
+  <input class="form-field fullWidth" placeholder="Username" formControlName="username">
+  <input class="form-field fullWidth" placeholder="Email" formControlName="email">
+  <input class="form-field fullWidth" placeholder="Password" formControlName="password">
+  <button (click)="clearValidations()">Clear Validators</button>
+</form>
