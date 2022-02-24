@@ -2589,6 +2589,13 @@
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/axe-core/-/axe-core-4.3.5.tgz"
   "version" "4.3.5"
 
+"axios@^0.26.0":
+  "integrity" "sha1-mjGPHGnsEI+M1fPD05A2ZjXhOSg="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/axios/-/axios-0.26.0.tgz"
+  "version" "0.26.0"
+  dependencies:
+    "follow-redirects" "^1.14.8"
+
 "axobject-query@^2.2.0":
   "integrity" "sha1-lD1H4QwLcEqkInXiDt83ImSJib4="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/axobject-query/-/axobject-query-2.2.0.tgz"
@@ -5605,10 +5612,10 @@
     "inherits" "^2.0.3"
     "readable-stream" "^2.3.6"
 
-"follow-redirects@^1.0.0":
-  "integrity" "sha1-IATALrlDbu6aIURqZHfevxfoFoU="
-  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/follow-redirects/-/follow-redirects-1.14.7.tgz"
-  "version" "1.14.7"
+"follow-redirects@^1.0.0", "follow-redirects@^1.14.8":
+  "integrity" "sha1-3U6hV957+vnqmz+9haoWlR942Nc="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/follow-redirects/-/follow-redirects-1.14.9.tgz"
+  "version" "1.14.9"
 
 "for-in@^1.0.2":
   "integrity" "sha1-gQaNKVqBQuwKxybG4iAMMPttXoA="
