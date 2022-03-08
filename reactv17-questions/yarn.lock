@@ -3478,6 +3478,15 @@
   dependencies:
     "source-map" "~0.6.0"
 
+"clean-deep@^3.4.0":
+  "integrity" "sha1-xGXE3hADrhOhqFnmxpNmq5YGn3U="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/clean-deep/-/clean-deep-3.4.0.tgz"
+  "version" "3.4.0"
+  dependencies:
+    "lodash.isempty" "^4.4.0"
+    "lodash.isplainobject" "^4.0.6"
+    "lodash.transform" "^4.6.0"
+
 "clean-stack@^2.0.0":
   "integrity" "sha1-7oRy27Ep5yezHooQpCfe6d/kAIs="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/clean-stack/-/clean-stack-2.2.0.tgz"
@@ -8019,6 +8028,11 @@
   "version" "4.2.0"
   dependencies:
     "lodash._reinterpolate" "^3.0.0"
+
+"lodash.transform@^4.6.0":
+  "integrity" "sha1-EjBkIvYzJK7YSD0/ODMrX2cFR6A="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/lodash.transform/-/lodash.transform-4.6.0.tgz"
+  "version" "4.6.0"
 
 "lodash.truncate@^4.4.2":
   "integrity" "sha1-WjUNoLERO4N+z//VgSy+WNbq4ZM="

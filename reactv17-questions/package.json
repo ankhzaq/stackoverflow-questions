@@ -10,6 +10,7 @@
     "assert": "^2.0.0",
     "axios": "^0.26.0",
     "buffer": "^6.0.3",
+    "clean-deep": "^3.4.0",
     "create-react-library": "^3.1.1",
     "eslint-config-airbnb": "^18.2.1",
     "history": "^5.2.0",
