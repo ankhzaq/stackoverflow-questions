@@ -524,7 +524,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
-"@babel/plugin-syntax-jsx@^7.16.7":
+"@babel/plugin-syntax-jsx@^7.12.13", "@babel/plugin-syntax-jsx@^7.16.7":
   "integrity" "sha1-ULZXHRP3ZCZqET13yCtKZQi75mU="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-7.16.7.tgz"
   "version" "7.16.7"
@@ -1033,7 +1033,7 @@
     "core-js-pure" "^3.20.2"
     "regenerator-runtime" "^0.13.4"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.0", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.14.5", "@babel/runtime@^7.14.6", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.0", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.5", "@babel/runtime@^7.14.6", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   "integrity" "sha1-A/+Z9kEGWIycQDxuy4w7r7vf8fo="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/@babel/runtime/-/runtime-7.16.7.tgz"
   "version" "7.16.7"
@@ -1096,6 +1096,40 @@
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/@csstools/normalize.css/-/normalize.css-10.1.0.tgz"
   "version" "10.1.0"
 
+"@emotion/babel-plugin@^11.7.1":
+  "integrity" "sha1-/sdfOKarWzBLBgHHTiped8leX6A="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/@emotion/babel-plugin/-/babel-plugin-11.7.2.tgz"
+  "version" "11.7.2"
+  dependencies:
+    "@babel/helper-module-imports" "^7.12.13"
+    "@babel/plugin-syntax-jsx" "^7.12.13"
+    "@babel/runtime" "^7.13.10"
+    "@emotion/hash" "^0.8.0"
+    "@emotion/memoize" "^0.7.5"
+    "@emotion/serialize" "^1.0.2"
+    "babel-plugin-macros" "^2.6.1"
+    "convert-source-map" "^1.5.0"
+    "escape-string-regexp" "^4.0.0"
+    "find-root" "^1.1.0"
+    "source-map" "^0.5.7"
+    "stylis" "4.0.13"
+
+"@emotion/cache@^11.4.0", "@emotion/cache@^11.7.1":
+  "integrity" "sha1-CNCA45akLgA3hIIU6Kp7+HkGVTk="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/@emotion/cache/-/cache-11.7.1.tgz"
+  "version" "11.7.1"
+  dependencies:
+    "@emotion/memoize" "^0.7.4"
+    "@emotion/sheet" "^1.1.0"
+    "@emotion/utils" "^1.0.0"
+    "@emotion/weak-memoize" "^0.2.5"
+    "stylis" "4.0.13"
+
+"@emotion/hash@^0.8.0":
+  "integrity" "sha1-u7/2iXj+/b5ozLUzvIy+HRr7VBM="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/@emotion/hash/-/hash-0.8.0.tgz"
+  "version" "0.8.0"
+
 "@emotion/is-prop-valid@^0.8.8":
   "integrity" "sha1-2yixxDaKJZtgqXMR1qlS1P0BrBo="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz"
@@ -1103,20 +1137,64 @@
   dependencies:
     "@emotion/memoize" "0.7.4"
 
-"@emotion/memoize@0.7.4":
+"@emotion/memoize@^0.7.4", "@emotion/memoize@0.7.4":
   "integrity" "sha1-Gb8PWvGRSREcQNmLsM+CEZ9dnus="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/@emotion/memoize/-/memoize-0.7.4.tgz"
   "version" "0.7.4"
+
+"@emotion/memoize@^0.7.5":
+  "integrity" "sha1-LED4FEmk5VTp/GOWkQ7UhD7CvlA="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/@emotion/memoize/-/memoize-0.7.5.tgz"
+  "version" "0.7.5"
+
+"@emotion/react@^11.1.1":
+  "integrity" "sha1-5R9eY3LiLoJ4CDbJKI2hmvS1HnA="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/@emotion/react/-/react-11.8.2.tgz"
+  "version" "11.8.2"
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@emotion/babel-plugin" "^11.7.1"
+    "@emotion/cache" "^11.7.1"
+    "@emotion/serialize" "^1.0.2"
+    "@emotion/utils" "^1.1.0"
+    "@emotion/weak-memoize" "^0.2.5"
+    "hoist-non-react-statics" "^3.3.1"
+
+"@emotion/serialize@^1.0.2":
+  "integrity" "sha1-d8shoFccn2jrZgh3VKZfqXv82WU="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/@emotion/serialize/-/serialize-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "@emotion/hash" "^0.8.0"
+    "@emotion/memoize" "^0.7.4"
+    "@emotion/unitless" "^0.7.5"
+    "@emotion/utils" "^1.0.0"
+    "csstype" "^3.0.2"
+
+"@emotion/sheet@^1.1.0":
+  "integrity" "sha1-VtmcQfChzaJyagWqaiCv1MY+WNI="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/@emotion/sheet/-/sheet-1.1.0.tgz"
+  "version" "1.1.0"
 
 "@emotion/stylis@^0.8.4":
   "integrity" "sha1-3qyzib1u530ef8rMzp4WxcfnjgQ="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/@emotion/stylis/-/stylis-0.8.5.tgz"
   "version" "0.8.5"
 
-"@emotion/unitless@^0.7.4":
+"@emotion/unitless@^0.7.4", "@emotion/unitless@^0.7.5":
   "integrity" "sha1-dyESkcGQCnALinjPr9oxYNdpSe0="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/@emotion/unitless/-/unitless-0.7.5.tgz"
   "version" "0.7.5"
+
+"@emotion/utils@^1.0.0", "@emotion/utils@^1.1.0":
+  "integrity" "sha1-hrCyl/PxoPK9sI7qyaL0mv1A0M8="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/@emotion/utils/-/utils-1.1.0.tgz"
+  "version" "1.1.0"
+
+"@emotion/weak-memoize@^0.2.5":
+  "integrity" "sha1-ju2YLi7m9/TkTCU+EpYpgHke/UY="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz"
+  "version" "0.2.5"
 
 "@eslint/eslintrc@^0.4.3":
   "integrity" "sha1-nkKYHvA1vrPdSa3ResuW6P9vOUw="
@@ -1851,6 +1929,13 @@
     "@types/react" "*"
     "hoist-non-react-statics" "^3.3.0"
     "redux" "^4.0.0"
+
+"@types/react-transition-group@^4.4.0":
+  "integrity" "sha1-rNTM6qK+a3V9th7XtDLhAyQtFj4="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/@types/react-transition-group/-/react-transition-group-4.4.4.tgz"
+  "version" "4.4.4"
+  dependencies:
+    "@types/react" "*"
 
 "@types/react@*":
   "integrity" "sha1-8kJJ/v2JNX1fpx9zmmhrjXxyAr0="
@@ -2686,6 +2771,15 @@
     "@babel/types" "^7.3.3"
     "@types/babel__core" "^7.0.0"
     "@types/babel__traverse" "^7.0.6"
+
+"babel-plugin-macros@^2.6.1":
+  "integrity" "sha1-D5WKfMZVax5lNERl2ZERoeXhATg="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/babel-plugin-macros/-/babel-plugin-macros-2.8.0.tgz"
+  "version" "2.8.0"
+  dependencies:
+    "@babel/runtime" "^7.7.2"
+    "cosmiconfig" "^6.0.0"
+    "resolve" "^1.12.0"
 
 "babel-plugin-macros@^3.1.0":
   "integrity" "sha1-nvbcdN65NLTbNE3Jc+6FHRSMUME="
@@ -3769,7 +3863,7 @@
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/convert-source-map/-/convert-source-map-0.3.5.tgz"
   "version" "0.3.5"
 
-"convert-source-map@^1.4.0", "convert-source-map@^1.6.0", "convert-source-map@^1.7.0":
+"convert-source-map@^1.4.0", "convert-source-map@^1.5.0", "convert-source-map@^1.6.0", "convert-source-map@^1.7.0":
   "integrity" "sha1-8zc8MtIbTXgN2ABFFGhPt5HKQ2k="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/convert-source-map/-/convert-source-map-1.8.0.tgz"
   "version" "1.8.0"
@@ -3855,6 +3949,17 @@
     "is-directory" "^0.3.1"
     "js-yaml" "^3.13.1"
     "parse-json" "^4.0.0"
+
+"cosmiconfig@^6.0.0":
+  "integrity" "sha1-2k/uhTxS9rHmk19BwaL8UL1KmYI="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/cosmiconfig/-/cosmiconfig-6.0.0.tgz"
+  "version" "6.0.0"
+  dependencies:
+    "@types/parse-json" "^4.0.0"
+    "import-fresh" "^3.1.0"
+    "parse-json" "^5.0.0"
+    "path-type" "^4.0.0"
+    "yaml" "^1.7.2"
 
 "cosmiconfig@^7.0.0":
   "integrity" "sha1-cU11ZSLKzoZ4Z8y0R0xdAbuuXW0="
@@ -4565,6 +4670,14 @@
   "version" "0.2.0"
   dependencies:
     "utila" "~0.4"
+
+"dom-helpers@^5.0.1":
+  "integrity" "sha1-2UAFNrK/giWtmP4FLgKUUaxA6QI="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/dom-helpers/-/dom-helpers-5.2.1.tgz"
+  "version" "5.2.1"
+  dependencies:
+    "@babel/runtime" "^7.8.7"
+    "csstype" "^3.0.2"
 
 "dom-serializer@^1.0.1":
   "integrity" "sha1-YgZDfTLO767HFhgDIwx6ILwbTZE="
@@ -5558,6 +5671,11 @@
     "make-dir" "^3.0.2"
     "pkg-dir" "^4.1.0"
 
+"find-root@^1.1.0":
+  "integrity" "sha1-q8/Iunb3CMQql7PWhbfpRQv7nOQ="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/find-root/-/find-root-1.1.0.tgz"
+  "version" "1.1.0"
+
 "find-up@^2.1.0":
   "integrity" "sha1-RdG35QbHF93UgndaK3eSCjwMV6c="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/find-up/-/find-up-2.1.0.tgz"
@@ -6131,7 +6249,7 @@
     "minimalistic-assert" "^1.0.0"
     "minimalistic-crypto-utils" "^1.0.1"
 
-"hoist-non-react-statics@^3.0.0", "hoist-non-react-statics@^3.1.0", "hoist-non-react-statics@^3.3.0", "hoist-non-react-statics@^3.3.2":
+"hoist-non-react-statics@^3.0.0", "hoist-non-react-statics@^3.1.0", "hoist-non-react-statics@^3.3.0", "hoist-non-react-statics@^3.3.1", "hoist-non-react-statics@^3.3.2":
   "integrity" "sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz"
   "version" "3.3.2"
@@ -6415,7 +6533,7 @@
     "caller-path" "^2.0.0"
     "resolve-from" "^3.0.0"
 
-"import-fresh@^3.0.0", "import-fresh@^3.2.1":
+"import-fresh@^3.0.0", "import-fresh@^3.1.0", "import-fresh@^3.2.1":
   "integrity" "sha1-NxYsJfy566oublPVtNiM4X2eDCs="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/import-fresh/-/import-fresh-3.3.0.tgz"
   "version" "3.3.0"
@@ -8204,6 +8322,11 @@
   "integrity" "sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/media-typer/-/media-typer-0.3.0.tgz"
   "version" "0.3.0"
+
+"memoize-one@^5.0.0":
+  "integrity" "sha1-gzeqPEM1WBg57AHD1ZQJDOvo8A4="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/memoize-one/-/memoize-one-5.2.1.tgz"
+  "version" "5.2.1"
 
 "memory-fs@^0.4.1":
   "integrity" "sha1-OpoguEYlI+RHz7x+i7gO1me/xVI="
@@ -10199,7 +10322,7 @@
     "kleur" "^3.0.3"
     "sisteransi" "^1.0.5"
 
-"prop-types@^15.0.0", "prop-types@^15.6.2", "prop-types@^15.7.2":
+"prop-types@^15.0.0", "prop-types@^15.6.0", "prop-types@^15.6.2", "prop-types@^15.7.2":
   "integrity" "sha1-Z9h78aaU9IQ1zzMsJK8QIUoxQLU="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -10427,7 +10550,7 @@
     "strip-ansi" "6.0.0"
     "text-table" "0.2.0"
 
-"react-dom@*", "react-dom@^17.0.1", "react-dom@>= 16.8.0":
+"react-dom@*", "react-dom@^16.8.0 || ^17.0.0", "react-dom@^17.0.1", "react-dom@>= 16.8.0", "react-dom@>=16.6.0":
   "integrity" "sha1-7P+2hF462Nv83EmPDQqTlzZQLCM="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -10577,7 +10700,30 @@
   optionalDependencies:
     "fsevents" "^2.1.3"
 
-"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^17.0.1", "react@>= 16", "react@>= 16.8.0", "react@>=15", "react@>=16.x", "react@17.0.2":
+"react-select@^5.2.2":
+  "integrity" "sha1-PV7fCmDxJ2/V8p+fkKMF8KJaUYk="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/react-select/-/react-select-5.2.2.tgz"
+  "version" "5.2.2"
+  dependencies:
+    "@babel/runtime" "^7.12.0"
+    "@emotion/cache" "^11.4.0"
+    "@emotion/react" "^11.1.1"
+    "@types/react-transition-group" "^4.4.0"
+    "memoize-one" "^5.0.0"
+    "prop-types" "^15.6.0"
+    "react-transition-group" "^4.3.0"
+
+"react-transition-group@^4.3.0":
+  "integrity" "sha1-i1mlbwnO17VcvVPDZ2i5IokNVHA="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/react-transition-group/-/react-transition-group-4.4.2.tgz"
+  "version" "4.4.2"
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    "dom-helpers" "^5.0.1"
+    "loose-envify" "^1.4.0"
+    "prop-types" "^15.6.2"
+
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^17.0.1", "react@>= 16", "react@>= 16.8.0", "react@>=15", "react@>=16.6.0", "react@>=16.8.0", "react@>=16.x", "react@17.0.2":
   "integrity" "sha1-0LXMUW0p6z7uOD91tihkz7aAADc="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
@@ -11574,6 +11720,11 @@
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/source-map/-/source-map-0.5.7.tgz"
   "version" "0.5.7"
 
+"source-map@^0.5.7":
+  "integrity" "sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/source-map/-/source-map-0.5.7.tgz"
+  "version" "0.5.7"
+
 "source-map@^0.6.0", "source-map@^0.6.1", "source-map@~0.6.0", "source-map@~0.6.1", "source-map@0.6.1":
   "integrity" "sha1-dHIq8y6WFOnCh6jQu95IteLxomM="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/source-map/-/source-map-0.6.1.tgz"
@@ -11947,6 +12098,11 @@
     "browserslist" "^4.0.0"
     "postcss" "^7.0.0"
     "postcss-selector-parser" "^3.0.0"
+
+"stylis@4.0.13":
+  "integrity" "sha1-9dszLjdtE8yE7P5drOmipR2VTJE="
+  "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/stylis/-/stylis-4.0.13.tgz"
+  "version" "4.0.13"
 
 "supports-color@^5.3.0":
   "integrity" "sha1-4uaaRKyHcveKHsCzW2id9lMO/I8="
@@ -13298,7 +13454,7 @@
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/yallist/-/yallist-4.0.0.tgz"
   "version" "4.0.0"
 
-"yaml@^1.10.0":
+"yaml@^1.10.0", "yaml@^1.7.2":
   "integrity" "sha1-IwHF/78StGfejaIzOkWeKeeSDks="
   "resolved" "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/yaml/-/yaml-1.10.2.tgz"
   "version" "1.10.2"
