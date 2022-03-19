@@ -1,13 +1,13 @@
 // React imports
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Question12 } from './Questions/Question12';
+import Question13 from './Questions/Question13/Question13';
 
 // Component
 
 ReactDOM.render(
   <React.StrictMode>
-    <Question12 />
+    <Question13 />
   </React.StrictMode>,
   document.getElementById('root'),
 );
