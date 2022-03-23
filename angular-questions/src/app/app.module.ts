@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Injector, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -10,12 +10,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTabsModule } from '@angular/material/tabs';
 import { DropdownModule } from 'primeng/dropdown';
 import { Question2Component } from './questions/question2/question2.component';
+import { Question3Component } from './questions/question3/question3.component';
+
+export let AppInjector: Injector;
 
 @NgModule({
   declarations: [
     AppComponent,
     Question1Component,
     Question2Component,
+    Question3Component,
   ],
   imports: [
     BrowserModule,
@@ -30,4 +34,9 @@ import { Question2Component } from './questions/question2/question2.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+
+export class AppModule {
+  constructor(private injector: Injector) {
+    AppInjector = this.injector;
+  }
+}
