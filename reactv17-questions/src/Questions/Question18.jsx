@@ -1,5 +1,4 @@
 /*
-Doc: https://reactjs.org/tutorial/tutorial.html#lifting-state-up
 Question: Reset state in redux, when make a network request
 Url: https://stackoverflow.com/questions/72066173/reset-state-in-redux-when-make-a-network-request
  */
