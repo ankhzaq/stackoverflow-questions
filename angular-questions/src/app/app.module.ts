@@ -12,6 +12,7 @@ import { DropdownModule } from 'primeng/dropdown';
 import { Question2Component } from './questions/question2/question2.component';
 import { Question3Component } from './questions/question3/question3.component';
 import { Question4Component } from './questions/question4/question4.component';
+import { Question5Component } from './questions/question5/question5.component';
 
 export let AppInjector: Injector;
 
@@ -22,6 +23,7 @@ export let AppInjector: Injector;
     Question2Component,
     Question3Component,
     Question4Component,
+    Question5Component,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,17 @@
+@mixin centering() {
+  p {
+    text-align: center;
+  }
+}
+
+@function centered() {
+  @return center;
+}
+
+p.func {
+  text-align: centered();
+}
+
+div.mixins {
+  @include centering;
+}
