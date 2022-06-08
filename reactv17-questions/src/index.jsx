@@ -2,11 +2,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Question24 from './Questions/Question24';
+import Question25 from './Questions/Question25';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Question24 />
+    <Question25 />
   </React.StrictMode>,
   document.getElementById('root'),
 );
